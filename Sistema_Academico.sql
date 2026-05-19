@@ -11,7 +11,7 @@ CREATE TABLE aluno (
     rgm VARCHAR(20) NOT NULL,
     nome VARCHAR(100) NOT NULL,
     data_nascimento DATE,
-    cpf CHAR(11) NOT NULL UNIQUE
+    cpf CHAR(11) NOT NULL UNIQUE,
     email VARCHAR(100),
     endereco VARCHAR(200),
     municipio VARCHAR(100),
